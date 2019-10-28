@@ -1,0 +1,32 @@
+/* Github Jekyll Config File */
+
+title: Glenn Evans Portfolio
+
+email: gevans@stclaircollege.ca
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: jekyllrb
+
+github_username:  glennevans
+
+insta_username: glenn1715
+
+email: gevans@stclaircollege.ca
+
+markdown: kramdown
+
+collections:
+ permalink: /:collection/:name
+  illustrations:
+    output: true
+  photography:
+    output: true
+  design:
+    output: true
+ 
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
