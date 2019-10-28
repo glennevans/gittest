@@ -19,13 +19,16 @@ email: gevans@stclaircollege.ca
 markdown: kramdown
 
 collections:
- permalink: /:collection/:name
+ 
   illustrations:
     output: true
+    permalink: /illustrations/:name
   photography:
     output: true
+    permalink: /photography/:name
   design:
     output: true
+    permalink: /design/:name
  
 
 sass:
